@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20160618</FitNesseVersion>
+  <rootPath>OCSlimProjectExamplePage</rootPath>
+  <pageHistoryReference>
+    <name>OCSlimProjectExamplePage.TestPage</name>
+    <date>2019-01-01T22:39:00+00:00</date>
+    <pageHistoryLink>OCSlimProjectExamplePage.TestPage?pageHistory&amp;resultDate=20190101223900</pageHistoryLink>
+    <counts>
+      <right>2</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>97</runTimeInMillis>
+  </pageHistoryReference>
+  <executionLog>
+    <testSystem>slim:./OCSlimProjectTestRunner.sh</testSystem>
+    <command>./OCSlimProjectTestRunner.sh 8085</command>
+    <exitCode>0</exitCode>
+    <stdOut>[OCSP_RUN] == RunSlimTestTargetWithSlimPort~iOS:8085 Tue  1 Jan 2019 22:38:58 GMT==
+[OCSP_RUN] Info: Test System Suggested SDK: 11.4
+[OCSP_RUN] Info: Test System Path: /Users/fragkiskos/Library/Developer/Xcode/DerivedData/POCFitNesse-fbznkgzemekdvwbegiaxhqstiuwx/Build/Products/Debug-iphonesimulator/AcceptanceTests.app
+[OCSP_RUN] Start Slim Test Sytem
+[OCSP_SIMCTL] == Launching Slim Host App @(#)PROGRAM:simctl  PROJECT:CoreSimulator-518.22  ==
+    iPhone 8 Plus (E515948F-8BAC-46B4-A5A1-33C6655CD1F9) (Booted)
+    iPhone X (71137FE1-E10B-4910-918C-3EBE19CA24FD) (Booted)
+[OCSP_SIMCTL] Installing App Identifier:com.trikalabs.AcceptanceTests
+[OCSP_SIMCTL] Launching... (App Identifer:com.trikalabs.AcceptanceTests, Slim Port: 8085)
+[OCSP_RUN] Waiting for Slim System... (34010) Tue  1 Jan 2019 22:39:00 GMT
+  PID TTY           TIME CMD
+34010 ??         0:00.02 /Users/fragkiskos/Library/Developer/CoreSimulator/Devices/71137FE1-E10B-4910-918C-3EBE19CA24FD/data/Containers/Bundle/Application/E41DA335-039B-4AB2-BDE8-E31A7E4F9644/AcceptanceTests.app/AcceptanceTests 8085
+  PID TTY           TIME CMD
+[OCSP_RUN] Slim System Exited Tue  1 Jan 2019 22:39:01 GMT
+[OCSP_RUN] Slim Test System Exited Normally
+</stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>3218</totalRunTimeInMillis>
+</suiteResults>
+
